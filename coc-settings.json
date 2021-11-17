@@ -1,0 +1,30 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "bash",
+    "rust"
+  ],
+  "rust-analyzer.server.path": "~/.local/bin/rust-analyzer",
+  "rust-analyzer.enable": true,
+  "xml.java.home": "/usr/lib/jvm/java-11-openjdk",
+  "languageserver": {
+    "dockerfile": {
+      "command": "docker-langserver",
+      "filetypes": [
+        "dockerfile"
+      ],
+      "args": [
+        "--stdio"
+      ]
+    }
+  },
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/13.0.0/clangd_13.0.0/bin/clangd",
+  "markdown-preview-enhanced.liveUpdate": true
+}
