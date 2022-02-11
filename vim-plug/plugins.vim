@@ -7,9 +7,10 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'asvetliakov/vim-easymotion'
     else
         " Syntax support
+        Plug 'normen/vim-pio'
         Plug 'sheerun/vim-polyglot'
         " Plug 'hsanson/vim-android'
-        "nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+        Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
         Plug 'mhinz/vim-startify'
         " Autopairs
         Plug 'jiangmiao/auto-pairs'
@@ -37,9 +38,12 @@ call plug#begin('~/.config/nvim/plugged')
         " Prettier
         Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
         Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+        Plug 'lukas-reineke/indent-blankline.nvim'
+        Plug 'frazrepo/vim-rainbow'
 
         " Themes
         Plug 'joshdick/onedark.vim'
+        Plug 'olimorris/onedarkpro.nvim'
         Plug 'kaicataldo/material.vim'
         Plug 'tomasiser/vim-code-dark'
         Plug 'crusoexia/vim-monokai'

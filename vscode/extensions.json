@@ -51,16 +51,6 @@
   },
   {
     "metadata": {
-      "id": "532533c9-a894-4a58-9eee-bbfbe7c06f71",
-      "publisherId": "mikestead.dotenv",
-      "publisherDisplayName": "mikestead"
-    },
-    "name": "dotenv",
-    "publisher": "mikestead",
-    "version": "1.0.1"
-  },
-  {
-    "metadata": {
       "id": "a9151cd6-3338-48bc-bc6e-ba97e22489dd",
       "publisherId": "Perkovec.emoji",
       "publisherDisplayName": "Perkovec"
@@ -98,36 +88,6 @@
     "name": "fish-vscode",
     "publisher": "skyapps",
     "version": "0.2.1"
-  },
-  {
-    "metadata": {
-      "id": "7328a705-91fc-49e6-8293-da6f112e482d",
-      "publisherId": "GitHub.github-vscode-theme",
-      "publisherDisplayName": "GitHub"
-    },
-    "name": "github-vscode-theme",
-    "publisher": "GitHub",
-    "version": "4.1.1"
-  },
-  {
-    "metadata": {
-      "id": "4de763bd-505d-4978-9575-2b7696ecf94e",
-      "publisherId": "eamodio.gitlens",
-      "publisherDisplayName": "eamodio"
-    },
-    "name": "gitlens",
-    "publisher": "eamodio",
-    "version": "11.4.1"
-  },
-  {
-    "metadata": {
-      "id": "198a707e-28af-4e84-8610-6e2f628dd12d",
-      "publisherId": "redhat.java",
-      "publisherDisplayName": "redhat"
-    },
-    "name": "java",
-    "publisher": "redhat",
-    "version": "0.79.2"
   },
   {
     "metadata": {

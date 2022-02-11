@@ -8,23 +8,38 @@
     "yaml",
     "json",
     "python",
+    "py",
     "bash",
-    "rust"
+    "c",
+    "cpp"
   ],
-  "rust-analyzer.server.path": "~/.local/bin/rust-analyzer",
-  "rust-analyzer.enable": true,
-  "xml.java.home": "/usr/lib/jvm/java-11-openjdk",
   "languageserver": {
-    "dockerfile": {
-      "command": "docker-langserver",
+    "ccls": {
+      "command": "ccls",
       "filetypes": [
-        "dockerfile"
+        "c",
+        "cpp",
+        "c++",
+        "objc",
+        "objcpp"
       ],
-      "args": [
-        "--stdio"
-      ]
+      "rootPatterns": [
+        ".ccls",
+        "compile_commands.json",
+        ".git/",
+        ".hg/"
+      ],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        },
+        "client": {
+          "snippetSupport": true
+        }
+      }
     }
   },
-  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/13.0.0/clangd_13.0.0/bin/clangd",
-  "markdown-preview-enhanced.liveUpdate": true
+  "python.linting.enabled": true,
+  "markdown-preview-enhanced.liveUpdate": true,
+  "markdown-preview-enhanced.previewTheme": "github-light.css"
 }
