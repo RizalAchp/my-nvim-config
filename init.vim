@@ -23,15 +23,15 @@ source $HOME/.config/nvim/general/prog.vim
 " else
     " Plugins
 source $HOME/.config/nvim/plug-config/coc.vim
-source $HOME/.config/nvim/plug-config/nerdtree.vim
+" source $HOME/.config/nvim/plug-config/nerdtree.vim
 source $HOME/.config/nvim/plug-config/vim-closetag.vim
 source $HOME/.config/nvim/plug-config/vim-commentary.vim
-source $HOME/.config/nvim/plug-config/fzf.vim
-source $HOME/.config/nvim/plug-config/prettier.vim
-source $HOME/.config/nvim/plug-config/vim-hexokinase.vim
+" source $HOME/.config/nvim/plug-config/fzf.vim
+" source $HOME/.config/nvim/plug-config/prettier.vim
+" source $HOME/.config/nvim/plug-config/vim-hexokinase.vim
 " source $HOME/.config/nvim/plug-config/vim-rainbow.vim
-luafile $HOME/.config/nvim/plug-config/startify.lua
-luafile $HOME/.config/nvim/plug-config/indent-no-line.vim
+" luafile $HOME/.config/nvim/plug-config/startify.lua
+" luafile $HOME/.config/nvim/plug-config/indent-no-line.vim
 " Themes
 "
 source $HOME/.config/nvim/general/colors.vim
