@@ -16,21 +16,22 @@ function arch_command()
 
 function debian_base_command()
 {
-   sudo apt install nodejs npm python python-pip \
-      ruby rubygems xsel fzf ripgrep fd \
-      the_silver_searcher prettier
+   sudo apt install nodejs npm \
+      ruby rubygems xsel fzf ripgrep fd-find \
+      silversearcher-ag
+   ln -s /usr/bin/fdfind ~/.local/bin/fd
 }
 
 function plug_install_vim()
 {
    PLUG_FILE="${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim"
    if [[ ! -f ${PLUG_FILE} ]]; then
-      sh -c 'curl -fLo "${PLUG_FILE}" --create-dirs \
-         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+        curl -fLo ${PLUG_FILE} --create-dirs \
+               https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
    fi
 }
 
-if [[ -f "/usr/bin/nvim" ]];
+if [[ ! -f "/usr/bin/nvim" ]];
 then
    # os_type
    plug_install_vim
@@ -53,4 +54,6 @@ then
    esac
 else
    echo "ERROR: Neovim is not Available in your environtment, please install it first"
+   echo ""
+   echo "download it first on your distro or download the binary on github!"
 fi
