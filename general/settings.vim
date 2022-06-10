@@ -14,6 +14,8 @@ set showtabline=4
 set formatoptions-=cro
 set nowrap
 set hidden
+set nobackup
+set nowritebackup
 set encoding=utf-8
 set fileencoding=utf-8
 set ruler

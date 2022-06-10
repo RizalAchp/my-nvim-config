@@ -11,6 +11,8 @@ let g:Hexokinase_optInPatterns = [
 \ ]
 
 let g:Hexokinase_highlighters = ['backgroundfull']
+" let g:Hexokinase_highlighters = ['virtual']
+" let g:Hexokinase_highlighters = ['foregroundfull']
 
 " Reenable hexokinase on enter
 autocmd VimEnter * HexokinaseTurnOn

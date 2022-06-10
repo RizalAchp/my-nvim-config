@@ -3,43 +3,17 @@
     "css",
     "markdown",
     "javascript",
-    "graphql",
+    "js",
+    "jsx",
+    "typescript",
+    "ts",
+    "tsx",
     "html",
-    "yaml",
     "json",
-    "python",
-    "py",
     "bash",
-    "c",
-    "cpp"
+    "python",
+    "go",
+    "rust"
   ],
-  "languageserver": {
-    "ccls": {
-      "command": "ccls",
-      "filetypes": [
-        "c",
-        "cpp",
-        "c++",
-        "objc",
-        "objcpp"
-      ],
-      "rootPatterns": [
-        ".ccls",
-        "compile_commands.json",
-        ".git/",
-        ".hg/"
-      ],
-      "initializationOptions": {
-        "cache": {
-          "directory": "/tmp/ccls"
-        },
-        "client": {
-          "snippetSupport": true
-        }
-      }
-    }
-  },
-  "python.linting.enabled": true,
-  "markdown-preview-enhanced.liveUpdate": true,
-  "markdown-preview-enhanced.previewTheme": "github-light.css"
+  "rust-analyzer.updates.checkOnStartup": false
 }
